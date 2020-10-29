@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout android:id="@+id/RelativeLayout01"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        xmlns:android="http://schemas.android.com/apk/res/android" tools:ignore="MissingConstraints">
+
+            <android.support.design.widget.FloatingActionButton android:id="@+id/Print"
+                                                                android:layout_width="wrap_content"
+                                                                android:layout_height="wrap_content"
+                                                                android:layout_centerInParent="true"
+                                                                android:background="@drawable/ic_launcher_background"
+                                                                app:srcCompat="@android:drawable/ic_menu_share" />
+
+
+        </RelativeLayout>
+
+
+    <RelativeLayout android:id="@+id/RelativeLayout02"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:translationY="-80px"
+
+                    xmlns:android="http://schemas.android.com/apk/res/android" tools:ignore="MissingConstraints">
+        <TextView
+                android:id="@+id/text_view_id"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/appuyer_pour_l_ancer_l_impression" tools:ignore="MissingConstraints"/>
+    </RelativeLayout>
+        />
+</android.support.constraint.ConstraintLayout>
